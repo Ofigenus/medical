@@ -1,0 +1,1116 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:05:53
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.33                                |7.1.33
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-07-16 11:53:56
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 5.7.21
+DB TABLES___________: 92
+DB ROWS_____________: 3,757
+DB FILE SIZE________: 5.15MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "W:/domains/med.com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://med.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "W:/domains/med.com/20200716_virtuozilagameworldd0bbd0b5d_[HASH]_20200716115356_archive.zip"
+SIZE________________: 72.2MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "W:/domains/med.com/20200716_virtuozilagameworldd0bbd0b5d_[HASH]_20200716115356_archive.zip"
+SIZE________________: 72.2MBFile timestamp set to Current: 2020-07-16 13:12:50
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:12:50 - RUNTIME: 417.3054 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:26:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.22 -- Build Server: 5.7.21
+FILE SIZE:	dup-database__[HASH].sql (1.73MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[W:/domains/med.com/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	797
+
+g2apay_payments: (0)
+g2apay_subscriptions: (0)
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (31)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_edd_customermeta: (0)
+wp_edd_customers: (0)
+wp_fluentform_entry_details: (12)
+wp_fluentform_form_analytics: (277)
+wp_fluentform_form_meta: (5)
+wp_fluentform_forms: (1)
+wp_fluentform_logs: (3)
+wp_fluentform_submission_meta: (0)
+wp_fluentform_submissions: (2)
+wp_fluentform_transactions: (0)
+wp_gglcptch_whitelist: (0)
+wp_links: (0)
+wp_nextend2_image_storage: (7)
+wp_nextend2_section_storage: (4)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (2)
+wp_nextend2_smartslider3_sliders_xref: (2)
+wp_nextend2_smartslider3_slides: (6)
+wp_nf3_action_meta: (90)
+wp_nf3_actions: (4)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (318)
+wp_nf3_fields: (6)
+wp_nf3_form_meta: (102)
+wp_nf3_forms: (1)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (1)
+wp_options: (583)
+wp_postmeta: (486)
+wp_posts: (220)
+wp_sgpb_subscribers: (0)
+wp_sgpb_subscription_error_log: (0)
+wp_term_relationships: (23)
+wp_term_taxonomy: (25)
+wp_termmeta: (14)
+wp_terms: (25)
+wp_ulp_campaign_items: (0)
+wp_ulp_campaigns: (0)
+wp_ulp_layers: (215)
+wp_ulp_popups: (22)
+wp_ulp_subscribers: (0)
+wp_ulp_targets: (0)
+wp_ulp_webfonts: (847)
+wp_usermeta: (228)
+wp_users: (7)
+wp_wc_admin_note_actions: (9)
+wp_wc_admin_notes: (8)
+wp_wc_category_lookup: (3)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (11)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_wdslayer: (0)
+wp_wdsslide: (4)
+wp_wdsslider: (2)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (18)
+wp_woocommerce_order_items: (2)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yoast_indexable: (40)
+wp_yoast_indexable_hierarchy: (6)
+wp_yoast_migrations: (15)
+wp_yoast_primary_term: (0)
+wp_yoast_seo_links: (0)
+wp_yoast_seo_meta: (6)
+Removed '63' cache/transient rows
+
+INSERT DATA RUNTIME: 32.9932 sec.
+STEP-2 COMPLETE @ 01:26:37 - RUNTIME: 33.1139 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:27:20
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Virtuozila Game World - летсплеи игр. прохождения на 100%"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/c/casperwdc/new.casperwdc.beget.tech/public_html"
+path_new______________: "W:/domains/med.com"
+siteurl_______________: "http://med.com"
+url_old_______________: "http://new.casperwdc.beget.tech"
+url_new_______________: "http://med.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "kromvel333@yandex.ua"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "g2apay_payments"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "g2apay_subscriptions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_edd_customermeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_edd_customers"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fluentform_entry_details"_____________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_form_analytics"____________________[ROWS:   277][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_form_meta"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_forms"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_logs"______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_submission_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fluentform_submissions"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_fluentform_transactions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gglcptch_whitelist"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   318][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:   102][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   583][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   486][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   220][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_sgpb_subscribers"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sgpb_subscription_error_log"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_ulp_campaign_items"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulp_campaigns"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulp_layers"___________________________________[ROWS:   215][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_ulp_popups"___________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_ulp_subscribers"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulp_targets"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ulp_webfonts"_________________________________[ROWS:   847][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   228][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdslayer"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdsslide"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_wdsslider"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c/casperwdc/new.casperwdc.beget.tech/public_html" => "W:/domains/med.com"
+	SEARCH  2:"\/home\/c\/casperwdc\/new.casperwdc.beget.tech\/public_html" => "W:\/domains\/med.com"
+	SEARCH  3:"%2Fhome%2Fc%2Fcasperwdc%2Fnew.casperwdc.beget.tech%2Fpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  4:"\home\c\casperwdc\new.casperwdc.beget.tech\public_html" => "W:/domains/med.com"
+	SEARCH  5:"\\home\\c\\casperwdc\\new.casperwdc.beget.tech\\public_html" => "W:\/domains\/med.com"
+	SEARCH  6:"%5Chome%5Cc%5Ccasperwdc%5Cnew.casperwdc.beget.tech%5Cpublic_html" => "W%3A%2Fdomains%2Fmed.com"
+	SEARCH  7:"//new.casperwdc.beget.tech" ======================> "//med.com"
+	SEARCH  8:"\/\/new.casperwdc.beget.tech" ====================> "\/\/med.com"
+	SEARCH  9:"%2F%2Fnew.casperwdc.beget.tech" ==================> "%2F%2Fmed.com"
+	SEARCH 10:"https://med.com" =================================> "http://med.com"
+	SEARCH 11:"https:\/\/med.com" ===============================> "http:\/\/med.com"
+	SEARCH 12:"https%3A%2F%2Fmed.com" ===========================> "http%3A%2F%2Fmed.com"
+--------------------------------------
+SCANNED:	Tables:92 	|	 Rows:3712 	|	 Cells:27354 
+UPDATED:	Tables:11 	|	 Rows:429 	|	 Cells:459 
+ERRORS:		0 
+RUNTIME:	4.159600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'Zarra' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""med""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:27:24 - RUNTIME: 4.4190 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'Zarra' already exists in the database.  Unable to create new account.
+
+
+====================================
