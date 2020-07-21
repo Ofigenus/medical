@@ -47,11 +47,11 @@
 
 body, html {
   font-family: "MuseoSansCyrl", Arial, Helvetica, sans-serif;
-  background-color: #fff;
+  background-color: #f4f6f6;
   color: #313131; 
   font-weight: 300;
-
 }
+
 
 .top-area {
   background-color: #fff;
@@ -102,7 +102,7 @@ body, html {
   content: " ";
   width: 100px;
   height: 50px;
-  rotate: 55deg;
+  transform: rotate(55deg);
   background-color: #fff;
   left: -60px;
   position: absolute;
@@ -181,6 +181,159 @@ body, html {
     right: 0;
     background-color: #1a5a95;
   }
+
+.sliders-main .n2-ss-align .n2_ss__touch_element{
+  box-shadow: 0 3px 10px #1b1b1baf;
+}
+
+.img-service {
+  background: url(/wp-content/themes/vgw/img/service.jpg);
+  box-shadow: 0 3px 10px #1b1b1baf;
+  color: #fff;
+  padding: 25px 30px 20px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-sapport{
+  background: url(/wp-content/themes/vgw/img/sapport.jpg);
+  box-shadow: 0 3px 10px #1b1b1baf;
+  padding: 25px 30px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-service h2, .img-sapport h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 5px;
+  max-width: 160px;
+}
+.img-service p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 11px;
+}
+
+.btn-service {
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: #ebf1f7;
+  box-shadow: 0 3px 10px #1b1b1b7c;
+  display: inline-block;
+}
+.img-sapport .btn-service {
+  margin-top: 17px;
+  background-color: #f9db52;
+}
+.block-padding {
+  padding: 0 !important;
+}
+
+.phone {
+  display: block;
+  font-size: 22px;
+  font-weight: 900;
+  color: #313131;
+}
+
+.col-banner {
+  max-width: 800px !important;
+}
+
+.col-service {
+  padding-left: 5px;
+}
+
+.block-1 {
+  padding-bottom: 40px;
+}
+.heading-container > h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.block-2 {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.img-about {
+  float: left;
+  padding: 0 35px 35px 0;
+}
+
+.block-2 ul {
+  padding-top: 20px;
+}
+.block-2 .lothung {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.block-3 {
+  padding: 40px 0;
+}
+
+.block-3 .probuct {
+  border-radius: 15px;
+  box-shadow: 0 3px 10px #1b1b1b5d;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.block-3 .probuct p{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1f5ea4;
+  text-align: center;
+  min-height: 83px;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-3 a:hover .probuct p {
+  background-color: #f9db52;
+  color: #313131;
+}
+
+.block-3 a .probuct p>span {
+  max-width: 180px;
+  display: inline-block;
+}
+.block-3 a:hover .probuct {
+  box-shadow: 0 3px 10px #1b1b1bad;
+}
+
+.block-3 a .probuct img {
+  display: block;
+  margin: 0 auto;
+}
+
+.block-3 a {
+  text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -414,8 +567,7 @@ body, html {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.advantage-block {
-  margin: 20px auto 20px auto; }
+
 
 /* block games */
 .block-games {
@@ -444,13 +596,6 @@ body, html {
 .donat-progress {
   background-color: #1b2838; }
 
-.heading-container > h2,
-.term-description > p {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: left;
-  padding: 55px 0 20px 0; }
 
 .image-game > img {
   width: 100%; }

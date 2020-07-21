@@ -3,79 +3,116 @@ get_header();
 ?>
 
 <body>
-    <!-- <?php if( function_exists('wd_slider') ) { wd_slider(2); } ?> -->
-    <div class="slider-desc"><?php echo do_shortcode('[smartslider3 slider=2]'); ?></div>
-    <div class="slider-mob"><?php echo do_shortcode('[smartslider3 slider=3]'); ?></div>
-    <!--<div class="owl-carousel owl-theme container-banner">
-        <div class="slider-1"></div>
-        <div class="slider-2"></div>
-        <div class="slider-3"></div>
-        <div class="slider-4"></div>
-    </div>-->
-    <!--Block advantage-->
-    <section class="container advantage-block">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                <div class="row advantage">
-                    <img src="/wp-content/themes/vgw/img/batary.png" alt="">
-                    <div class="text-adv">
-                        <p>Прохождения на 100%</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                <div class="row advantage">
-                    <img src="/wp-content/themes/vgw/img/hand.png" alt="">
-                    <div class="text-adv">
-                        <p>Общение с подписчиками</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 align-content-md-center">
-                <div class="row advantage">
-                    <img src="/wp-content/themes/vgw/img/video.png" alt="">
-                    <div class="text-adv">
-                        <p>Новое видео каждый день</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Block advantage END-->
-
-    <!--Block games-->
-    <section class="block-games">
-        <div class="container">
+    <!--Block banner-->
+    <section class="block-1">
+        <div class="container block-padding">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4 random-game">
-                    <img class="games-block-img" src="/wp-content/themes/vgw/img/img-1.jpg" alt="">
+                <div class="col-12 col-md-9 col-banner">
+                    <div class="slider-desc"><?php echo do_shortcode('[smartslider3 slider=2]'); ?></div>
+                    <div class="slider-mob"><?php echo do_shortcode('[smartslider3 slider=3]'); ?></div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 random-game">
-                    <img class="games-block-img" src="/wp-content/themes/vgw/img/img-2.jpg" alt="">
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 random-game">
-                    <img class="games-block-img" src="/wp-content/themes/vgw/img/img-3.jpg" alt="">
+                <div class="col-12 col-md-4 col-service">
+                    <div class="img-service">
+                        <h2>Сервисное обслуживание</h2>
+                        <p>Мы предоставляем гарантийное и послегарантийное обслуживание на различные виды оборудования
+                        </p>
+                        <a class="btn-service" href="#">Подробнее</a>
+                    </div>
+                    <div class="img-sapport">
+                        <h2>Поддержка клиентов</h2>
+                        <a class="phone" href="tel:0444677621">(044) 467 76 21</a>
+                        <a class="phone" href="tel:0444677621">(044) 467 76 21</a>
+                        <a class="btn-service" href="#">On-line запрос</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Block game END-->
+    <!--Block banner END-->
 
-    <!--Block order game-->
-    <section class="donat-progress">
+
+    <!--Block about-->
+    <section class="block-2">
         <div class="container">
             <div class="heading-container">
-                <h2>Заказать прохождение игр</h2>
+                <h2>ПОЛИТИКА В ОБЛАСТИ КАЧЕСТВА</h2>
             </div>
-            <?php echo do_shortcode( '[wpcf_listing_home]' ); ?>
+            <div>
+                <img src="wp-content/themes/vgw/img/zavod.jpg" alt="" class="img-about">
+                <p>Высшее руководство ОДО ” Киевского производственного объединения “Медаппаратура” берет на себя
+                    добровольно обязательство установить, документально оформить, внедрить и поддерживать систему
+                    менеджмента качества и ее результативность в соответствии с требованиями международных стандартов
+                    ISO 9001 и ISO 13485.</p>
+                <p>Наша цель – обеспечение наивысшего уровня удовлетворенности настоящих и будущих потребностей
+                    заказчиков в медицинской технике, характеристики которой соответствуют лучшим мировым аналогам,
+                    нормативным и законодательным требованиям.
+                    Нашими основными задачами в области качества являются: -формирование единства целей и направлений
+                    деятельности объединения; -полное вовлечение всех сотрудников в процесс создания качественной
+                    продукции;</p>
+                <ul>
+                    <li>Использование научно-технических новшеств и ориентация на внедрение новых технологий.</li>
+                    <li>Прогрессивных методов организации производства</li>
+                    <li>Проведение постоянного анализа результативности системы менеджмента</li>
+                    <li>Качества и непрерывное ее совершенствование.</li>
+                    <li>Наши принципы: -постоянно предупреждать возникновение проблем, а не устранять последствия после
+                        их появления;</li>
+                    <li>Установление доверительных отношений с потребителями и поставщиками; -активизация творческого
+                        потенциала сотрудников, поддержка и поощрение людей, выдвигающих новые идеи.
+                    </li>
+                    <li>Каждый работник, выполняя свою работу на стадии производственного процесса, рассматривает
+                        работника на последующей операции, как своего потребителя.</li>
+
+                </ul>
+                <p class="lothung">«Выпускаемая продукция должна помочь сохранить здоровье людям»</p>
+            </div>
         </div>
     </section>
-    <!--Block order game END-->
+    <!--Block about END-->
+
+    <!--Block products-->
+    <section class="block-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <a href="#">
+                        <div class="probuct">
+
+                            <p>флюорографы</p>
+                            <img src="wp-content/themes/vgw/img/fluo.jpg" alt="">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <a href="#">
+                        <div class="probuct">
+
+                            <p><span>рентгеновские комплексы</span></p>
+                            <img src="wp-content/themes/vgw/img/rent.jpg" alt="">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 align-content-md-center">
+                    <a href="#">
+                        <div class="probuct">
+
+                            <p><span>дополнительная комплектация</span></p>
+                            <img src="wp-content/themes/vgw/img/dop.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Block products END-->
+
+
 
     <!--Blog -->
     <section class="block-blog">
         <div class="container">
-        <div class="heading-container">
+            <div class="heading-container">
                 <h2>Новости и прочая дичь</h2>
             </div>
             <?php $catquery = new WP_Query( 'posts_per_page=3' ); ?>
@@ -85,26 +122,28 @@ get_header();
                     <div class="newshr"></div>
                     <h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
                     <div class="post-content">
-                    <div class="post-image"><a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(500, 500)); ?></a></div>
-                    <div class="post-prev"><?php the_excerpt(); ?><a href="<?php the_permalink() ?>">Читать статью</a></div>
+                        <div class="post-image"><a
+                                href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(500, 500)); ?></a></div>
+                        <div class="post-prev"><?php the_excerpt(); ?><a href="<?php the_permalink() ?>">Читать
+                                статью</a></div>
                     </div>
-                    
+
                 </li>
                 <?php endwhile; ?>
             </ul>
             <?php wp_reset_postdata(); ?>
             <div class="btn-blog">
-            <a href="/blog/" class="all-news-btn"> Все новости</a>
+                <a href="/blog/" class="all-news-btn"> Все новости</a>
             </div>
         </div>
     </section>
     <!--Blog  END-->
 
-    <section class="block-blog block-seo"> 
+    <section class="block-blog block-seo">
         <div class="container">
-        <div class="heading-container">
-            <h2>Тупой SEO текст который никто читать не будет</h2>
-        </div>
+            <div class="heading-container">
+                <h2>Тупой SEO текст который никто читать не будет</h2>
+            </div>
             <p class="seo-txt">
 
             </p>
