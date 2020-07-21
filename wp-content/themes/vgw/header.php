@@ -12,7 +12,7 @@
             <?php wp_nav_menu( [ 'menu' => 'main' ] ); ?>
         </div>
         <div class="mobil-menu-block">
-            <img src="wp-content/themes/vgw/img/logo.jpg" class="logo-mob-menu" alt="VGW">
+            <img src="../wp-content/themes/vgw/img/logo.jpg" class="logo-mob-menu" alt="VGW">
             <p class="mob-menu-text">Только 100% прохождения на хардкоре с Virtuozila Game World. Испытай игру на все
                 100.</p>
         </div>
@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3 area-adres">
-                    <img src="wp-content/themes/vgw/img/logo.jpg" alt="">
+                    <img src="../wp-content/themes/vgw/img/logo.jpg" alt="">
                 </div>
                 <div class="col-9 area-cont">
                     <div class="area-head">
