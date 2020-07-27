@@ -98,3 +98,10 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+function exclude_category($query) {
+	if ($query->is_feed || ($query->is_home || ($query->is_search))){
+	$query->set('cat','-26');} 
+	return $query; }
+	add_filter('pre_get_posts','exclude_category');
+
+?>

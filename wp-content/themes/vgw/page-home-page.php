@@ -7,11 +7,11 @@ get_header();
     <section class="block-1">
         <div class="container block-padding">
             <div class="row">
-                <div class="col-12 col-md-9 col-banner">
+                <div class="col-12 col-md-12 col-lg-8 col-xl-9 col-banner">
                     <div class="slider-desc"><?php echo do_shortcode('[smartslider3 slider=2]'); ?></div>
-                    <div class="slider-mob"><?php echo do_shortcode('[smartslider3 slider=3]'); ?></div>
+                    <!--<div class="slider-mob"><?php echo do_shortcode('[smartslider3 slider=3]'); ?></div>-->
                 </div>
-                <div class="col-12 col-md-4 col-service">
+                <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-service">
                     <div class="img-service">
                         <h2>Сервисное обслуживание</h2>
                         <p>Мы предоставляем гарантийное и послегарантийное обслуживание на различные виды оборудования
@@ -125,7 +125,7 @@ get_header();
                             <h2>томосинтез</h2>
                         </div>
                         <div class="tomo-spisok">
-                            <ul>
+                           <!-- <ul>
                                 <li><i class="fa fa-question-circle-o" aria-hidden="true"></i><a href="#">Почему датчик
                                         это важно?</a></li>
                                 <li><i class="fa fa-question-circle-o" aria-hidden="true"></i><a href="#">Рекомендации
@@ -143,10 +143,21 @@ get_header();
                                         очистке и дезинфекции ультразвуковых датчиков</a></li>
                                 <li><i class="fa fa-question-circle-o" aria-hidden="true"></i><a href="#">Почему датчик
                                         это важно?</a></li>
-                            </ul>
+                            </ul>-->
+                            <?php $posts = get_posts ("category=26&orderby=date&numberposts=7"); ?> 
+<?php if ($posts) : ?>
+<?php foreach ($posts as $post) : setup_postdata ($post); ?>
+
+
+        <div class="tomo-item"> 
+        <i class="fa fa-question-circle-o" aria-hidden="true"></i> <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a> 
+        </div>
+
+<?php endforeach; ?>
+<?php endif; ?>
                         </div>
-                        <div class="btn-blog">
-                            <a href="#" class="all-news-btn"> Смотреть все статьи <i class="fa fa-long-arrow-right"
+                        <div class="btn-blog btn-tomo">
+                            <a href="/category/tomosintez/" class="all-news-btn"> Смотреть все статьи <i class="fa fa-long-arrow-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -159,7 +170,7 @@ get_header();
                         <div>
                             <?php $catquery = new WP_Query( 'posts_per_page=3' ); ?>
                             <ul class="post-block">
-                                <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
+                                <?php while($catquery->have_posts()) : $catquery->the_post();?>
                                 <li class="post-item">
                                     <div class="post-content">
                                         <div class="post-image"><a

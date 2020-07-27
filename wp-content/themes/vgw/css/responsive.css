@@ -8,7 +8,6 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 50px;
     padding-left: 20px; }
   .collaps-menu #menu-main li a {
     display: block; }
@@ -75,3 +74,40 @@
     display: block !important; }
   .slider-mob {
     display: none !important; } }
+
+    @media screen and (max-width: 1199px) {
+
+  .area-head::before {
+    display: none;
+  }
+  .btn-order {
+    margin: 0;
+  }
+  .area-head {
+    padding-left: 10px;
+  }
+  .area-head .adress{
+    margin-left: 5px !important;
+  }
+
+  .post-block .post-item .post-content h3 {
+    max-width: 180px;
+  }
+  .help {
+    justify-content: center;
+  }
+  .help>p {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+  .mob-menu, .nav-mob {
+    display: block;
+  }
+  .desc-menu, .bg-top-area {
+    display: none;
+  }
+
+}
